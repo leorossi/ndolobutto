@@ -4,7 +4,7 @@ name: publish
 # Release = push a v* tag (e.g. v1.0.0); the image gets the version tag
 # (without the v prefix) plus :latest and :sha-<short>.
 # The gitops-home-server repo deploys ghcr.io/leorossi/ndolobutto:<version>
-# (private package — the cluster pulls it with the ghcr-pull secret).
+# (the cluster pulls it with the ghcr-pull secret).
 
 on:
   push:

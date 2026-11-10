@@ -102,6 +102,30 @@ src/
 any static host (Netlify, Vercel, GitHub Pages, Cloudflare Pages, nginx, …).
 Remember to set the environment variables in the build environment.
 
+### Docker
+
+The `Dockerfile` builds the app with Node.js and serves the result with nginx,
+including SPA fallback and long-lived caching for hashed assets:
+
+```bash
+docker build -t ndolobutto .
+docker run --rm -p 8080:80 ndolobutto
+```
+
+The app is then available at <http://localhost:8080>.
+
+### Publishing images
+
+Pushing a `v*` tag (for example `v1.0.0`) triggers the
+`publish` GitHub Actions workflow, which builds the image and pushes it to
+GitHub Container Registry with the `<version>`, `sha-<short>` and `latest` tags:
+
+```bash
+docker pull ghcr.io/leorossi/ndolobutto:1.0.0
+```
+
+The `gitops-home-server` repository deploys the versioned image to the cluster.
+
 ## Contributing
 
 Contributions are welcome — bug reports, fixes and small improvements alike.
