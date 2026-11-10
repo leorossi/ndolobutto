@@ -1,9 +1,9 @@
-# NdoLoButto
+# Ndolobutto
 
-> *Ndo lo butto?* — “Where do I throw it?”
+> *Ndolobutto?* — “Where do I throw it?” in Tuscan dialect.
 
-A small web app for waste sorting: type the name of an object and instantly see
-which bin it belongs in.
+A small web app for waste sorting in Florence: type the name of an object and
+instantly see which bin it belongs in.
 
 **Live demo:** <https://ndolobutto.leorossi.online>
 
@@ -154,5 +154,6 @@ Contributions are welcome — bug reports, fixes and small improvements alike.
 ## Disclaimer
 
 Data and icons are provided by
-[Alia Estra](https://aliaestra.it/ambiente/raccolta-e-pulizia-strade/dove-lo-butto).
-This is a demo project and is not affiliated with the official service.
+[Alia Estra](https://aliaestra.it/ambiente/raccolta-e-pulizia-strade/dove-lo-butto),
+the waste management utility serving Florence. This is a demo project and is not
+affiliated with the official service.

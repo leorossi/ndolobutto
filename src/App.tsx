@@ -211,12 +211,12 @@ function App() {
       <div className="ambient-grid" aria-hidden="true" />
 
       <header className="site-header">
-        <a className="brand" href="/" aria-label="DoveLoButto, torna alla ricerca">
+        <a className="brand" href="/" aria-label="Ndolobutto, torna alla ricerca">
           <span className="brand__mark">
             <BrandMark />
           </span>
           <span className="brand__word">
-            DoveLoButto<span className="brand__accent">?</span>
+            Ndolobutto<span className="brand__accent">?</span>
           </span>
         </a>
 
@@ -249,7 +249,7 @@ function App() {
           </span>
 
           <h1 className="hero__title">
-            Dove lo butto<span>?</span>
+            Ndolobutto<span>?</span>
           </h1>
           <p className="hero__subtitle">
             Scrivi il nome di un oggetto e scopri subito in quale contenitore
